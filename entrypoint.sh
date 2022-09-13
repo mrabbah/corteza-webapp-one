@@ -37,6 +37,6 @@ else
 
   sed -i "s|{{BASE_PATH}}|$BASE_PATH|g" /etc/nginx/nginx.conf
 
-
+  
   nginx -g "daemon off;"
 fi

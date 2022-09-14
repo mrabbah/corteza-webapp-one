@@ -22,7 +22,8 @@ spec:
             value: >-
                   window.CortezaAPI = 'https://cortezadev.rabbahsoft.ma/api';
                   window.CortezaAuth = 'https://cortezadev.rabbahsoft.ma/auth';
-                  window.CortezaWebapp = 'https://cortezadev.rabbahsoft.ma/';
+                  window.CortezaDiscoveryAPI = 'cortezadev.rabbahsoft.ma';
+                  window.CortezaWebapp = '/';
                   window.i18nPseudoModeEnabled = false;
           image: mrabbah/corteza-webapp-one:TAG_NAME
           imagePullPolicy: Always
